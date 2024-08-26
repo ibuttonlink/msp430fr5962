@@ -2,9 +2,13 @@
 name = "msp430fr5962"
 version = "0.4.0"
 edition = "2021"
-authors = ["iButtonLink, LLC <info@ibuttonlink.com>", "Brett Koenig <bkoenig@ibuttonlink.com>"]
+authors = [
+    "iButtonLink, LLC <info@ibuttonlink.com>",
+    "Brett Koenig <bkoenig@ibuttonlink.com>",
+]
 description = "Peripheral access crate for MSP430FR5962 microcontroller"
-keywords = ["no-std", "msp430", "ti", "launchpad"]
+categories = ["embedded", "hardware-support", "no-std"]
+keywords = ["no-std", "msp430", "ti", "launchpad", "ibuttonlink"]
 repository = "https://github.com/ibuttonlink/msp430fr5962"
 license = "MIT OR Apache-2.0"
 documentation = "https://docs.rs/msp430fr5962"
